@@ -1,0 +1,17 @@
+import java.util.scanner;
+class stringoperations {
+public static void main(string[]args){
+scanner sc=new scanner(system.in);
+system.out.print("Enter first string:");
+string str1=sc.nextline();
+system.out.print("Enter second string:");
+string str2=sc.nextline();
+system.out.println("\ncharacter at index 0:"+str1.charAt(0));
+system.out.println("substring from index 1:"+str1.substring(1));
+system.out.println("concatenation:"+str1.concat(str2));
+system.out.println("are both strings equal? "+
+str1.equals(str2));
+system.out.println("Is first string empty? " + str1.isempty());
+sc.close();
+}
+}
